@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
+	<title>lottery</title>
+	<link rel="stylesheet" href="/less/index.css" >
+</head>
+<body>
+	<script src="js/utils/htmlFontSize.js"></script>
+	<div id="container" class="lottery-main">
+		<header class="lottery-header">
+			<h1>免费投注双色球</h1>
+		</header>
+		<div class="lottery-content">
+			<section class="lottery-date"><div class="lottery-date-msg"><i></i>第<span id="lottery-period"></span>期 <span id="lottery-weekday"></span><span id="lottery-time"></span>开奖</div></section>
+			<section id="lottery-tmpl" class="lottery-tmpl">
+			</section>
+			<section class="clearfix lottery-range-main">
+				<div class="lottery-range-btn">
+					<span class="lottery-range"><span id="lottery-money">10元</span><i></i></span>
+					<!-- <ul id="lottery-range" class="lottery-range-list">
+						<li>10元</li>
+						<li>20元</li>
+						<li>30元</li>
+					</ul> -->
+				</div>
+				<div id="lottery-submit" class="lottery-submit">立即投注</div>
+			</section>
+			<section class="lottery-sum-main">
+				<div><i></i><span>奖池</span><ul id="lotter-billion" class="lotter-billion clearfix"></ul><span>亿</span><ul id="lotter-tenthousand" class="lotter-billion clearfix"></ul><span>万</span></div>
+			</section>
+		</div>
+		<footer class="lottery-footer">
+			<div class="lottery-footer-msg"></div>
+			<h3>规则说明</h3>
+			<p class="lottery-footer-detail">规则说明规则说明规则说明规则说</p>
+		</footer>
+		<ul class="lottery-search-list clearfix">
+			<li><a href="/#doubleball">双色球</a></li>
+			<li><a href="/#elevenfive">粤11选5</a></li>
+			<li><a href="/#threed">福彩3D</a></li>
+			<li><a href="/#sortfive">排5直选</a></li>
+			<li><a href="/#elevenfiveself">11选5自选</a></li>
+		</ul>
+	</div>
+	<script src="js/dist/bundle.js"></script>
+</body>
+</html>
