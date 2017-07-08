@@ -52,13 +52,13 @@ module.exports = function(app){
     	    mid = form.mid,
     	   	lottery_str = form.lottery_str;
     	//忽略参数检查
-    	var newUser = new User({
-    		name: 'zhyupeng',
-    		money: money,
-    		period: period,
-    		mid: mid,
-    		lottery_str: lottery_str
-    	});
+		// var newUser = new User({
+		// 	name: 'zhyupeng',
+		// 	money: money,
+		// 	period: period,
+		// 	mid: mid,
+		// 	lottery_str: lottery_str
+		// });
     	//存入数据库
    //  	newUser.save(function(err, user){
 			// if(err){
