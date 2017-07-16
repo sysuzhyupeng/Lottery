@@ -1,12 +1,13 @@
 ## Lottery
 
 ![image](https://github.com/sysuzhyupeng/Lottery/raw/master/public/img/lottery.png)
+
 需求如下：</br>
-能在微信中能正常浏览, 适配市面上大部分iphone、Android手机屏幕。</br>
   * 结合彩票玩法设计交互
   * 关注HTML5、css3、js的合理运用
   * 关注组件的复用性
   * 关注可能存在的页面性能问题
+  * 能在微信中能正常浏览, 适配大部分iphone、Android手机屏幕
   
 实现结果：</br>
 1.`npm install`之后`npm start`，在`localhost:3000`中查看
