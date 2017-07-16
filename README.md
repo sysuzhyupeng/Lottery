@@ -1,8 +1,9 @@
-## Lottery
+## Lottery投注页面
 
 ![image](https://github.com/sysuzhyupeng/Lottery/raw/master/public/img/lottery.png)
 
 需求如下：</br>
+-
   * 结合彩票玩法设计交互
   * 关注HTML5、css3、js的合理运用
   * 关注组件的复用性
@@ -11,7 +12,7 @@
   
   
 实现说明：</br>
-
+-
 1.`npm install`之后`npm start`，在`localhost:3000`中查看
 
 2.项目主类在`app/Lottery.js`中,包括ajax请求开奖日期、请求奖池金额(请求数据在node.js后端中写死)，通过对比前后数据决定是否`re-render`
@@ -27,4 +28,6 @@
 7.随机序列生成借助`对象去重`，while循环的效率可能偏低，如果效率低可以使用对象+数组保证每次random效率
 
 8.设置最大随机次数保证效率，如果超过最大随机数就将hashmap置空
+
+9.金额选择交互没有做
 
