@@ -1,4 +1,7 @@
 ## Lottery
+
+![image](https://github.com/sysuzhyupeng/Lottery/raw/master/public/img/lottery.ppg)
+
 1.`npm install`之后`npm start`，在`localhost:3000`中查看
 
 2.项目主类在`app/Lottery.js`中,包括ajax请求开奖日期、请求奖池金额(请求数据在node.js后端中写死)，通过对比前后数据决定是否`re-render`
