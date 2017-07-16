@@ -8,8 +8,9 @@
   * 关注组件的复用性
   * 关注可能存在的页面性能问题
   * 能在微信中能正常浏览, 适配大部分iphone、Android手机屏幕
-  
-实现结果：</br>
+  
+实现说明：</br>
+
 1.`npm install`之后`npm start`，在`localhost:3000`中查看
 
 2.项目主类在`app/Lottery.js`中,包括ajax请求开奖日期、请求奖池金额(请求数据在node.js后端中写死)，通过对比前后数据决定是否`re-render`
