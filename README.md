@@ -1,7 +1,14 @@
 ## Lottery
 
-![image](https://github.com/sysuzhyupeng/Lottery/raw/master/public/img/lottery.ppg)
-
+![image](https://github.com/sysuzhyupeng/Lottery/raw/master/public/img/lottery.png)
+需求如下：</br>
+能在微信中能正常浏览, 适配市面上大部分iphone、Android手机屏幕。</br>
+  * 结合彩票玩法设计交互
+  * 关注HTML5、css3、js的合理运用
+  * 关注组件的复用性
+  * 关注可能存在的页面性能问题
+  
+实现结果：</br>
 1.`npm install`之后`npm start`，在`localhost:3000`中查看
 
 2.项目主类在`app/Lottery.js`中,包括ajax请求开奖日期、请求奖池金额(请求数据在node.js后端中写死)，通过对比前后数据决定是否`re-render`
